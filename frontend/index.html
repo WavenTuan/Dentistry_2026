@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>口腔智植-模拟诊所</title>
+  <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>口腔智植-模拟诊所</h1>
+    </header>
+
+    <section class="output-section">
+      <h2>展示窗口</h2>
+      <div id="display-area" class="display-area">欢迎来到智植诊所！</div>
+    </section>
+
+    <section class="input-section">
+      <h2>打字输入</h2>
+      <div class="input-row">
+        <textarea id="text-input" rows="3" placeholder="在此输入文字后点击发送"></textarea>
+        <button type="button" id="btn-send-text" class="btn btn-primary">发送</button>
+      </div>
+    </section>
+
+    <section class="upload-section">
+      <h2>文件提交</h2>
+      <div class="input-row">
+        <input type="file" id="file-input" accept="image/*,audio/*,video/*" />
+        <button type="button" id="btn-upload" class="btn btn-primary">提交文件</button>
+      </div>
+    </section>
+  </div>
+
+  <script src="static/js/app.js"></script>
+</body>
+</html>

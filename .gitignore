@@ -1,0 +1,25 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+*.egg-info/
+.eggs/
+
+# 环境与本地配置（含敏感信息）
+.env.example
+
+# 数据库文件（本地 SQLite）
+*.db
+dentistry.db
+
+# 上传文件目录（运行时产生，通常不纳入版本控制）
+backend/uploads/
+
+# 编辑器/系统
+.idea/
+.vscode/
+*.swp
+.DS_Store
